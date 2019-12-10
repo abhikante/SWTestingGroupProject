@@ -1,1 +1,1 @@
-web: gunicorn src.webclient:webclient --log-file=-
+web: gunicorn webclient:webclient --log-file=-
